@@ -19,12 +19,12 @@ sudo curl -fsSL https://deb.nodesource.com/setup_20.x -o nodesource_setup.sh
 sudo -E bash nodesource_setup.sh
 sudo apt-get install -y nodejs
 
-cd /app
+cd /app/ext-users-api
 
 # Criar Aplicativo Laravel
 
 # sudo composer create-project laravel/laravel tmp
-# sudo cp -R tmp/. ./ext-users-api
+# sudo cp -R tmp/. ./
 # sudo rm -rf tmp
 
 cd /app/ext-users-api
