@@ -1,5 +1,6 @@
 services:
     vscode:
+        container_name: vscode-dev
         image: codercom/code-server:latest
         ports:
             - 80:80
