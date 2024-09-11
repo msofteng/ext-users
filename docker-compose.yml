@@ -1,0 +1,9 @@
+services:
+    vscode:
+        image: codercom/code-server:latest
+        ports:
+            - 80:80
+        volumes:
+            - ./app/init.sh:/app/init.sh
+            - ./app:/app/ext-users-api
+        entrypoint: ["/bin/sh", "-c", "/app/init.sh"]
